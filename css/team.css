@@ -1,0 +1,510 @@
+.team-landing {
+	height: 45vh;
+	width: 100%;
+	background-color: #191919;
+/*	background-image: url(../images/bg001.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;*/
+}
+
+.team-section1 {
+	margin: 40px auto 100px; 
+	width: 95%;
+
+}
+
+.team-pic {
+	width: 300px;
+	height: 300px;
+/*	background-color: #ddd;*/
+	margin: 12px auto;
+}
+
+.team-pic:hover {
+	cursor: pointer;
+	opacity: ;
+}
+
+
+.proj-pic {
+	width: 300px;
+	height: 300px;
+/*	background-color: #ddd;*/
+	margin: 12px auto;
+}
+
+.proj-pic:hover {
+	cursor: pointer;
+	opacity: ;
+}
+
+.team-pic-holder {
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.team-photos {
+	padding: 30px 0 100px;
+}
+
+
+.footer-bar {
+	width: 100%;
+	height: 45vh;
+	background-color: #191919;
+}
+
+
+
+#team h1 {
+	color:#fff;
+	font-size: 16pt;
+	font-weight: 400;
+}
+
+#team p {
+	color: #fff;
+	font-size: 12pt;
+}
+
+.team-name {
+	display: none;
+	padding: 80px 0;
+}
+
+.team-pic:hover .team-name {
+	display: block;
+}
+
+.proj-name {
+	display: none;
+	padding: 80px 0;
+}
+
+.proj-pic:hover .proj-name {
+	display: block;
+}
+
+
+.team-intro {
+	margin-top: 60px;
+}
+
+.view-profile p{
+	margin-top: 50px;
+}
+
+.team-pic-title h1{
+	color: #666;
+}
+
+
+
+
+.bio-s-1 {
+	float: left;
+}
+
+.bio-s-2 {
+	/*width: 80%;*/
+	/*padding-left: 100px;*/
+}
+
+
+.bio-s {
+	display: inline-block;
+}
+
+.linked-in {
+	margin-top: 40px;
+	width: 180px;
+}
+
+.link-icon {
+	width: 30px;
+	height: 30px;
+	background-color: #444;
+	float: left;
+	margin-right: 10px;
+}
+
+.linked-in p {
+	padding-top: 4px;
+}
+
+
+.bio-subtitle {
+	margin-top: -10px;
+}
+.bio-subtitle p{
+
+	font-weight:;
+}
+
+
+
+
+
+.team-pic-1 {
+	background-image: url(../img/team1.jpg);
+}
+.team-pic-1:hover {
+	background-image: url(../img/team1h.jpg);
+}
+
+.team-pic-2 {
+	background-image: url(../img/team2.jpg);
+}
+.team-pic-2:hover {
+	background-image: url(../img/team2h.jpg);
+}
+
+.team-pic-3 {
+	background-image: url(../img/team3.jpg);
+}
+.team-pic-3:hover {
+	background-image: url(../img/team3h.jpg);
+}
+
+.team-pic-4 {
+	background-image: url(../img/team4.jpg);
+}
+.team-pic-4:hover {
+	background-image: url(../img/team4h.jpg);
+}
+
+.team-pic-5 {
+	background-image: url(../img/team5.jpg);
+}
+.team-pic-5:hover {
+	background-image: url(../img/team5h.jpg);
+}
+
+.team-pic-6 {
+	background-image: url(../img/team6.jpg);
+}
+.team-pic-6:hover {
+	background-image: url(../img/team6h.jpg);
+}
+
+.team-pic-7 {
+	background-image: url(../img/team7.jpg);
+}
+.team-pic-7:hover {
+	background-image: url(../img/team7h.jpg);
+}
+
+.team-pic-8 {
+	background-image: url(../img/team8.jpg);
+}
+.team-pic-8:hover {
+	background-image: url(../img/team8h.jpg);
+}
+
+.team-pic-9 {
+	background-image: url(../img/team9.jpg);
+}
+.team-pic-9:hover {
+	background-image: url(../img/team9h.jpg);
+}
+
+.team-pic-10 {
+	background-image: url(../img/team10.jpg);
+}
+.team-pic-10:hover {
+	background-image: url(../img/team10h.jpg);
+}
+
+.team-pic-11 {
+	background-image: url(../img/team11.jpg);
+}
+.team-pic-11:hover {
+	background-image: url(../img/team11h.jpg);
+}
+
+.team-pic-12 {
+	background-image: url(../img/team12.jpg);
+}
+.team-pic-12:hover {
+	background-image: url(../img/team12h.jpg);
+}
+
+.team-pic-13 {
+	background-image: url(../img/team13.jpg);
+}
+.team-pic-13:hover {
+	background-image: url(../img/team13h.jpg);
+}
+
+.team-pic-14 {
+	background-image: url(../img/team14.jpg);
+}
+.team-pic-14:hover {
+	background-image: url(../img/team14h.jpg);
+}
+
+.team-pic-15 {
+	background-image: url(../img/team15.jpg);
+}
+.team-pic-15:hover {
+	background-image: url(../img/team15h.jpg);
+}
+
+.team-pic-16 {
+	background-image: url(../img/team16.jpg);
+}
+.team-pic-16:hover {
+	background-image: url(../img/team16h.jpg);
+}
+
+
+
+
+
+.proj-pic-1 {
+	background-image: url(../img/projects/proj001.jpg);
+}
+.proj-pic-1:hover {
+	background-image: url(../img/projects/proj001h.jpg);
+}
+
+.proj-pic-2 {
+	background-image: url(../img/projects/proj002.jpg);
+}
+.proj-pic-2:hover {
+	background-image: url(../img/projects/proj002h.jpg);
+}
+
+.proj-pic-3 {
+	background-image: url(../img/projects/proj003.jpg);
+}
+.proj-pic-3:hover {
+	background-image: url(../img/projects/proj003h.jpg);
+}
+
+.proj-pic-4 {
+	background-image: url(../img/projects/proj004.jpg);
+}
+.proj-pic-4:hover {
+	background-image: url(../img/projects/proj004h.jpg);
+}
+
+.proj-pic-5 {
+	background-image: url(../img/projects/proj005.jpg);
+}
+.proj-pic-5:hover {
+	background-image: url(../img/projects/proj005h.jpg);
+}
+
+.proj-pic-6 {
+	background-image: url(../img/projects/proj006.jpg);
+}
+.proj-pic-6:hover {
+	background-image: url(../img/projects/proj006h.jpg);
+}
+
+.proj-pic-7 {
+	background-image: url(../img/projects/proj001.jpg);
+}
+.proj-pic-7:hover {
+	background-image: url(../img/projects/proj001h.jpg);
+}
+
+.proj-pic-8 {
+	background-image: url(../img/projects/proj008.jpg);
+}
+.proj-pic-8:hover {
+	background-image: url(../img/projects/proj008h.jpg);
+}
+
+.proj-pic-9 {
+	background-image: url(../img/projects/proj002.jpg);
+}
+.proj-pic-9:hover {
+	background-image: url(../img/projects/proj002h.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------*/
+/*-----------*/
+/*--Clients--*/
+/*-----------*/
+/*-----------*/
+
+.client-bar {
+	height: inherit;
+	width: 100%;
+	background-color: #f2f2f2;
+	margin: 0 0 100px;
+	text-align: center;
+	padding: 2% 10%;
+}
+
+#clientbar h1 {
+	font-size: 16pt;
+}
+
+.client-l {
+	padding: 3% 3%;
+}
+
+
+
+
+
+
+.linkedin-type {
+	padding-top: 5px;
+	padding-left: 20px;
+}
+
+.linkedin {
+	width: 300px;
+}
+
+.linkedin-icon {
+	float: left;
+	margin-right: 10px;
+}
+
+
+
+
+
+
+
+/*--- Specific Projects---*/
+
+.sp-group {
+	width: 100%;
+	height: 300px;
+	/*margin: 2%;*/
+	padding: 2%;
+}
+
+.sp-inner {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #ddd;
+	background-color: #f2f2f2;
+	margin: 0%;
+}
+
+.proj-comp {
+	width: 100%;
+	height: 60%;
+	background-image: url(../img/projcomp.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+#proj-info-type {
+	/*line-height: 1em;*/
+	margin-top: 40px;
+}
+
+#proj-info-type p{
+	line-height: 1em;
+	margin-top: -15px;
+	color: #666;
+}
+
+.proj-img-1 {
+background-image: url(../img/projects/proj001.jpg);	
+}
+
+.proj-img-3 {
+background-image: url(../img/sp-imgs/rogersarena_thumb.jpg);	
+}
+
+.proj-img-4 {
+background-image: url(../img/sp-imgs/proj3_thumb.jpg);	
+}
+
+.proj-img-5 {
+background-image: url(../img/sp-imgs/proj5-thumb.jpg);	
+}
+
+.proj-img-6 {
+background-image: url(../img/sp-imgs/proj6_thumb.jpg);	
+}
+
+
+
+.rg-arena-img {
+	width: 100%;
+}
+
+
+.whitespace {
+	width: 100%;
+	height: 100px;
+
+}
+
+/*Medium Screen Size*/
+
+
+
+@media only screen and (min-width: 720px) { 
+
+.team-section1 {
+	margin: 40px auto 100px; 
+	width: 65%;
+
+}
+
+.team-intro {
+
+	width: 60%;
+}
+
+.bio-s-2 {
+	/*width: 80%;*/
+	padding-left: 100px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+/*Large Screen Size*/
+
+@media only screen and (min-width: 1280px) {
+
+
+
+.team-pic-holder {
+	margin: 0 auto;
+	text-align: center;
+	width: 67%;
+}
+
+.bio-s-2 {
+	/*width: 80%;*/
+	padding-left: 100px;
+}
+
+
+
+}

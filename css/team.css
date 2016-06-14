@@ -27,8 +27,8 @@
 
 
 .team-body-type {
-	text-align: left;
-	/*margin: 0 auto;*/
+	text-align: center;
+	margin: 0 auto;
 	width: 100%;
 }
 
@@ -43,6 +43,7 @@
 	font-size: 13pt;
 	margin-top: 40px;
 }
+
 
 
 
@@ -279,6 +280,28 @@
 }
 
 
+.team-pic-17 {
+	background-image: url(../img/team17.jpg);
+}
+.team-pic-17:hover {
+	background-image: url(../img/team17h.jpg);
+}
+
+.team-pic-18 {
+	background-image: url(../img/team18.jpg);
+}
+.team-pic-18:hover {
+	background-image: url(../img/team18h.jpg);
+}
+
+.team-pic-19 {
+	background-image: url(../img/team19.jpg);
+}
+.team-pic-19:hover {
+	background-image: url(../img/team19h.jpg);
+}
+
+
 
 
 
@@ -498,8 +521,8 @@ background-image: url(../img/sp-imgs/proj6_thumb.jpg);
 }
 
 .team-body-type {
-	text-align: left;
-	/*margin: 0 auto;*/
+	text-align: center;
+	margin: 0 auto;
 	width: 70%;
 }
 

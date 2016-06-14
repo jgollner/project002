@@ -2,7 +2,6 @@
 	width: 100%;
 	height: 80vh;
 	background: url(../img/bg005.jpg) 0% 0% fixed;
-	/*background-color: #232323;*/
 	position: inherit;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -37,7 +36,13 @@
 
 .landing-4 {
 	height: 40vh;
-	background-image: url(../img/bg006.jpg);
+	background-image: url(../img/bg008.jpg);
+	
+}
+
+.landing-5 {
+	height: 40vh;
+	background-image: url(../img/bg009.jpg);
 	
 }
 
@@ -49,7 +54,11 @@
 }
 
 
-
+a {
+	border-style: none;
+	list-style: none;
+	text-decoration: none;
+}
 
 
 
@@ -61,6 +70,93 @@
 	line-height: 1.6em;
 
 }
+
+
+
+
+
+
+/*Careers & Partner Link*/
+
+
+.careers-link {
+	color: #fff;
+}
+
+#careers-link {
+	text-decoration-style: none;
+	text-decoration: none;
+	float: right;
+	color: #fff;
+	margin: 20px 0;
+}
+
+#careers-link:hover {
+	cursor: pointer;
+	opacity: .7;
+}
+
+#careers-link a {
+	text-decoration-style: none;
+	text-decoration: none;
+	color: #fff;
+	font-size: 9pt;
+	border: 1px solid #fff;
+	padding: 5% 10%;
+	border-radius: 4px;
+	font-weight: 200;
+	text-transform: uppercase;
+
+}
+
+
+.partner-link {
+	color: #fff;
+}
+
+#partner-link {
+	text-decoration-style: none;
+	text-decoration: none;
+	float: right;
+	color: #fff;
+	margin: 20px;
+}
+
+#partner-link:hover {
+	cursor: pointer;
+	opacity: .7;
+
+}
+
+#partner-link a {
+	text-decoration-style: none;
+	text-decoration: none;
+	color: #fff;
+	font-size: 9pt;
+	border: 1px solid #fff;
+	padding: 5% 10%;
+	border-radius: 4px;
+	font-weight: 200;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*---BlueText---*/
 
@@ -166,7 +262,7 @@ button:hover {
 }
 
 #red h1 b {
-	font-size: 21pt;
+	font-size: 18pt;
 	line-height: 1.2em;
 	
 }
@@ -303,6 +399,21 @@ button:hover {
 	margin: 60px auto;
 }
 
+.wwd-content-2 {
+
+}
+
+.wwd-content-3 {
+
+}
+
+.how-we-do {
+	width: 100%;
+	height: inherit;
+	background-color: #fafafa;
+	padding: 20px 0;
+}
+
 .content-underline {
 	width: 100%;
 	height: 1px;
@@ -320,6 +431,10 @@ button:hover {
 	margin: 80px 0 0;
 }
 
+.wwd-body-type {
+	width: 75%;
+	margin: 0 auto;
+}
 
 .wwd-body-title {
 	margin-bottom: 30px;
@@ -327,6 +442,12 @@ button:hover {
 
 .wwd-body-title-2 {
 	margin: 60px 0 30px;
+}
+
+.wwd-body-title-3 {
+	margin: 60px 0 -20px;
+	text-align: center;
+
 }
 
 .what-we-do-link {
@@ -374,6 +495,124 @@ button:hover {
 }
 
 
+#wwd-bullet p b {
+	font-weight: 400;
+	font-size: 12pt;
+	margin-top: -10px;
+	color: #003a70;
+}
+
+
+.video-holder {
+	width: 80%;
+	height: 400px;
+	/*background-color: #f2f2f2;*/
+	margin: 50px auto;
+}
+
+
+
+
+
+
+
+.partnered-with {
+	width: 100%;
+	height: 50vh;
+	/*background-color: #fafafa;*/
+
+}
+
+.partner-holder {
+	width: 70%;
+	margin: 0 auto;
+	height: ;
+	padding-top: 60px;
+
+}
+
+.p-logo {
+	width: 90%;
+	height: 100px;
+	/*background-color: #ccc;*/
+	padding: 5%;
+	text-align: center;
+	margin-top: 60px;
+}
+
+.p-logo-4 {
+	margin-top: 90px;
+}
+
+
+
+
+/*--------------------------*/
+/*--------------------------*/
+/*--------------------------*/
+/*------Project Nav------*/
+/*--------------------------*/
+/*--------------------------*/
+
+.proj-nav {
+	height: 60px;
+	width: 100%;
+	background-color: #e5e5e5;
+	/*border-bottom: 1px solid #e3e3e3;*/	
+	/*padding: 10px 0px;*/
+}
+
+.subnav-proj {
+	display: inline-block;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+nav .subnav-proj {
+	display: inline-block;
+	width: 100%;
+}
+
+#proj-subnav nav ul li{
+	display: inline-block;
+	/*width: 100%;*/
+
+}
+
+
+#proj-subnav nav ul{
+	display: inline-block;
+	/*width: 100%;*/
+	/*padding: 0;*/
+
+}
+
+
+#proj-subnav li {
+	font-size: 8.5pt;
+	color: #000;
+	font-weight: 400;
+	/*background-color: #ccc;*/
+}
+
+#proj-subnav li:hover {
+	opacity: .4;
+}
+
+#proj-subnav a {
+	color: #000;
+	text-decoration: none;
+	border-style: none;
+	margin-left: -5px;
+}
+
+
+
+
+
+
+
 
 /*---- NEWS ----*/
 
@@ -382,6 +621,27 @@ button:hover {
 	padding: 5%;
 	margin: 2%;
 }
+
+
+
+#proj-intro-big h1 {
+	font-size: 16pt;
+	line-height: 1.5em;
+	font-weight: 500;
+	color: #003a70;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -501,6 +761,30 @@ footer p small {
 }
 
 
+
+.map-circle {
+	/*text-decoration: none;*/
+	/*background-image: url(../img/map2.jpg);*/
+	width: 100%;
+	height: 100%;
+
+
+	/*margin-right: 50px;*/
+}
+.map-circle:hover {
+	text-decoration: none;
+	cursor: pointer;
+	
+	/*margin-right: 50px;*/
+}
+
+#contact-info h2 {
+	font-size: 16pt;
+	line-height: 1.5em;
+	font-weight: 500;
+	color: #003a70;
+	/*text-align: center;*/
+}
 
 
 

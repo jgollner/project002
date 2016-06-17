@@ -46,6 +46,25 @@
 	
 }
 
+.landing-6 {
+	height: 40vh;
+	background: url(../img/bg010.jpg) 100% 100% fixed;
+	
+}
+
+.landing-7 {
+	height: 40vh;
+	background: url(../img/bg011.jpg) 100% 100% fixed;
+	
+}
+
+
+.landing-no {
+	height: 100px;
+	background-color: #fff;
+	background-image: none;
+	margin-bottom: -290px;
+}
 
 
 .active {
@@ -303,6 +322,31 @@ button:hover {
 	color: #666;
 	}
 
+#s1 p strong {
+	font-size: 13pt;
+	font-weight: 400;
+	color: #777;
+	line-height: 1.4em;
+}
+
+#proj-intro-big p strong {
+	font-size: 13pt;
+	font-weight: 400;
+	color: #777;
+	line-height: 1.4em;
+	text-align: center;
+}
+
+#proj-intro-big p {
+	font-size: 13pt;
+	font-weight: 400;
+	color: #777;
+	line-height: 1.9em;
+	text-align: center;
+
+}
+
+
 .underline {
 	width: 100px;
 	height: 4px;
@@ -324,6 +368,29 @@ button:hover {
 	}
 
 
+/*  ICONS  */
+.services-icon {
+	width: 90px;
+	height: 90px;
+	margin: 0 auto 10px;
+	background-image: url(../img/icon002.svg);
+	background-repeat: no-repeat;
+}
+
+.innovation-icon {
+	width: 90px;
+	height: 90px;
+	margin: 0 auto 10px;
+	background-image: url(../img/icon001.svg);
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
 .section2 {
 	width: 100%;
 	height: 70vh;
@@ -332,12 +399,22 @@ button:hover {
 	padding-top: 10%;
 	}
 
+
+#s2-white-header h2{
+	font-weight: 500;
+	font-size: 16pt;
+	color: #fff;
+	text-align: center;
+	margin: -10px auto 20px;
+}
+
+
 .section3 {
 	width: 100%;
 	height: inherit;
 	padding: 50px 0 80px;
 	text-align: center;
-	background-color: #f2f2f2;
+	/*background-color: #f2f2f2;*/
 	}
 
 
@@ -359,11 +436,8 @@ button:hover {
 
 .section4 {
 	padding: 5% 15%;
+	background-color: #f2f2f2;
 }
-
-
-
-
 
 
 
@@ -431,9 +505,17 @@ button:hover {
 	margin: 80px 0 0;
 }
 
+#wwd-body-services {
+	text-align: center;
+}
+
 .wwd-body-type {
 	width: 75%;
 	margin: 0 auto;
+}
+
+.wwd-body-type-left {
+	margin: 0;
 }
 
 .wwd-body-title {
@@ -486,8 +568,21 @@ button:hover {
 
 .bullet-list {
 	padding-top: 20px;
-	margin-left: 60px;
+	width: 40%;
+	margin: 0 auto;
+	/*text-align: center;*/
 }
+
+
+#bullet-list-items ul {
+	font-weight: 400;
+	font-size: 12pt;
+	margin-top: 10px;
+	color: #003a70;
+}
+
+
+
 
 #wwd-bullet p {
 	line-height: 1.2em;
@@ -555,9 +650,9 @@ button:hover {
 /*--------------------------*/
 
 .proj-nav {
-	height: 60px;
+	height: 70px;
 	width: 100%;
-	background-color: #e5e5e5;
+	background-color: #323232;
 	/*border-bottom: 1px solid #e3e3e3;*/	
 	/*padding: 10px 0px;*/
 }
@@ -591,17 +686,18 @@ nav .subnav-proj {
 
 #proj-subnav li {
 	font-size: 8.5pt;
-	color: #000;
+	color: #ddd;
 	font-weight: 400;
 	/*background-color: #ccc;*/
 }
 
 #proj-subnav li:hover {
 	opacity: .4;
+
 }
 
 #proj-subnav a {
-	color: #000;
+	color: #ddd;
 	text-decoration: none;
 	border-style: none;
 	margin-left: -5px;
@@ -609,7 +705,14 @@ nav .subnav-proj {
 
 
 
-
+.plus-icon {
+	width: 40px;
+	height: 40px;
+	margin: 0 auto 20px;
+	text-align: center;
+	background-image: url(../img/open-icon.svg);
+	background-repeat: no-repeat;
+}
 
 
 
@@ -626,28 +729,75 @@ nav .subnav-proj {
 
 #proj-intro-big h1 {
 	font-size: 16pt;
-	line-height: 1.5em;
+	line-height: 1.4em;
 	font-weight: 500;
 	color: #003a70;
 	text-align: center;
+}
+
+#proj-intro-big p strong {
+	
+	font-weight: 500;
+	color: #555;
+	text-align: center;
+
 }
 
 
 
 
 
+#proj-intro-big {
+	margin: 0 auto;
+	text-align: center;
+
+}
 
 
 
 
 
+/*   News Articles  */
 
+.news-article {
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+}
 
+.news-article-holder {
+	width: 67%;
+	margin: 0 auto;
+	height: inherit;
+	/*background-color: #f2f2f2;*/
+	padding: 60px 0;
+}
 
+.news-article-content {
 
+}
 
+#news-article h1 small {
+	font-size: 12pt;
+	color: #666;
 
+}
 
+.news-buttons {
+	width: 100%;
+	margin: 50px auto;
+	text-align: center;
+	display: inline-block;
+}
+
+.news-btn {
+	display: inline-block;
+	width: 150px;
+}
+
+.thecontent-holder {
+	margin-top: 70px;
+}
 
 
 
@@ -727,6 +877,7 @@ footer p {
 	text-align: left;
 	color: #ddd;
 	font-weight: 300;
+	line-height: .1em;
 }
 
 .foot-underline {
@@ -780,7 +931,7 @@ footer p small {
 
 #contact-info h2 {
 	font-size: 16pt;
-	line-height: 1.5em;
+	line-height: .6em;
 	font-weight: 500;
 	color: #003a70;
 	/*text-align: center;*/

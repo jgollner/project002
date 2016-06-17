@@ -46,6 +46,37 @@
 
 
 
+.next-arrow {
+	height: 80px;
+	width: 40px;
+	background-image: url(../img/nextarrow.svg);
+	background-repeat: no-repeat;
+	position: absolute;
+	right:100px;
+	top: 400px;
+}
+
+.next-arrow:hover {
+	background-image: url(../img/nextarrow-h.svg);
+}
+
+
+.prev-arrow {
+	height: 80px;
+	width: 40px;
+	background-image: url(../img/prevarrow.svg);
+	background-repeat: no-repeat;
+	position: absolute;
+	left:100px;
+	top: 400px;
+}
+
+.prev-arrow:hover {
+	background-image: url(../img/prevarrow-h.svg);
+}
+
+
+
 
 .proj-pic {
 	width: 300px;

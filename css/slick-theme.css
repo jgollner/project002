@@ -80,7 +80,9 @@
 
 .slick-prev
 {
-    left: -25px;
+    left: 10px;
+    z-index: 10;
+    top: 120px;
 }
 [dir='rtl'] .slick-prev
 {
@@ -90,7 +92,7 @@
 .slick-prev:before
 {
     content: '←';
-    color: #003A70;
+    color: #c41230;
 }
 [dir='rtl'] .slick-prev:before
 {
@@ -99,7 +101,8 @@
 
 .slick-next
 {
-    right: -25px;
+       top: 120px;
+    right: 10px;
 }
 [dir='rtl'] .slick-next
 {
@@ -109,7 +112,9 @@
 .slick-next:before
 {
     content: '→';
-    color: #003A70;
+    color: #c41230;
+    width: 20px;
+    height: 20px;
 }
 [dir='rtl'] .slick-next:before
 {
